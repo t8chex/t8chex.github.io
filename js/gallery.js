@@ -6,7 +6,7 @@ function activateGallery() {
   let mainImage = document.querySelector("#gallery-photo img");
 
   thumbnails.forEach(function(thumbnail) {
-    // Preload Large Images.
+    // Preload Large Images. Giving something to commit
     let newImageSrc = thumbnail.dataset.largeVersion;
     let newImageAlt = thumbnail.dataset.title;
     let largeVersion = new Image();
